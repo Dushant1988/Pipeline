@@ -16,4 +16,17 @@ public class AppiumTest {
 		System.out.println("Appium2");
 	}	
 	
+	@Test	
+	public void Appium3()
+	{
+		System.out.println("Appium3");
+	}	
+	
+	@Test	
+	public void Appium4()
+	{
+		System.out.println("Appium4");
+	}	
+	
+	
 }
