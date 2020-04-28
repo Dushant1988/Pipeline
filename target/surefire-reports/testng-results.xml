@@ -1,40 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="104" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+  <suite name="Command line suite" duration-ms="231" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="104" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+    <test name="Command line test" duration-ms="231" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+      <class name="djmvnprojects.AdditionalTest">
+        <test-method status="PASS" signature="Additional1()[pri:0, instance:djmvnprojects.AdditionalTest@210366b4]" name="Additional1" duration-ms="30" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Additional1 -->
+      </class> <!-- djmvnprojects.AdditionalTest -->
       <class name="djmvnprojects.RestAPITest">
-        <test-method status="PASS" signature="RestAPI1()[pri:0, instance:djmvnprojects.RestAPITest@185d8b6]" name="RestAPI1" duration-ms="0" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="RestAPI1()[pri:0, instance:djmvnprojects.RestAPITest@2b2948e2]" name="RestAPI1" duration-ms="1" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RestAPI1 -->
-        <test-method status="PASS" signature="RestAPI2()[pri:0, instance:djmvnprojects.RestAPITest@185d8b6]" name="RestAPI2" duration-ms="0" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="RestAPI2()[pri:0, instance:djmvnprojects.RestAPITest@2b2948e2]" name="RestAPI2" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RestAPI2 -->
+        <test-method status="PASS" signature="RestAPI3()[pri:0, instance:djmvnprojects.RestAPITest@2b2948e2]" name="RestAPI3" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPI3 -->
+        <test-method status="PASS" signature="RestAPI4()[pri:0, instance:djmvnprojects.RestAPITest@2b2948e2]" name="RestAPI4" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPI4 -->
       </class> <!-- djmvnprojects.RestAPITest -->
       <class name="djmvnprojects.AppiumTest">
-        <test-method status="PASS" signature="Appium1()[pri:0, instance:djmvnprojects.AppiumTest@6f1fba17]" name="Appium1" duration-ms="9" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="Appium1()[pri:0, instance:djmvnprojects.AppiumTest@eec5a4a]" name="Appium1" duration-ms="1" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Appium1 -->
-        <test-method status="PASS" signature="Appium2()[pri:0, instance:djmvnprojects.AppiumTest@6f1fba17]" name="Appium2" duration-ms="0" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="Appium2()[pri:0, instance:djmvnprojects.AppiumTest@eec5a4a]" name="Appium2" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Appium2 -->
+        <test-method status="PASS" signature="Appium3()[pri:0, instance:djmvnprojects.AppiumTest@eec5a4a]" name="Appium3" duration-ms="1" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium3 -->
+        <test-method status="PASS" signature="Appium4()[pri:0, instance:djmvnprojects.AppiumTest@eec5a4a]" name="Appium4" duration-ms="1" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium4 -->
       </class> <!-- djmvnprojects.AppiumTest -->
       <class name="djmvnprojects.SeleniumTest">
-        <test-method status="PASS" signature="Selmethod1()[pri:0, instance:djmvnprojects.SeleniumTest@67784306]" name="Selmethod1" duration-ms="0" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="Selmethod1()[pri:0, instance:djmvnprojects.SeleniumTest@6ddf90b0]" name="Selmethod1" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Selmethod1 -->
-        <test-method status="PASS" signature="Selmethod2()[pri:0, instance:djmvnprojects.SeleniumTest@67784306]" name="Selmethod2" duration-ms="0" started-at="2020-04-22T17:17:14 IST" finished-at="2020-04-22T17:17:14 IST">
+        <test-method status="PASS" signature="Selmethod2()[pri:0, instance:djmvnprojects.SeleniumTest@6ddf90b0]" name="Selmethod2" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Selmethod2 -->
+        <test-method status="PASS" signature="Selmethod3()[pri:0, instance:djmvnprojects.SeleniumTest@6ddf90b0]" name="Selmethod3" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selmethod3 -->
+        <test-method status="PASS" signature="Selmethod4()[pri:0, instance:djmvnprojects.SeleniumTest@6ddf90b0]" name="Selmethod4" duration-ms="0" started-at="2020-04-28T11:18:41 IST" finished-at="2020-04-28T11:18:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selmethod4 -->
       </class> <!-- djmvnprojects.SeleniumTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
